@@ -61,7 +61,8 @@
             </div>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
-                Organised by the Decision System Lab, University of Wollongong
+                Organised by the <a href="https://www.uow.edu.au/research/decision-systems-lab/">Decision System
+                  Lab</a>, University of Wollongong
               </span>
             </div>
           </div>
@@ -115,16 +116,58 @@
             neurosymbolic AI and LLMs for reliable autonomous systems.</p>
         </div>
         <div class="column is-one-third presenter-item">
-          <img src="static/images/avatar-placeholder.webp" alt="Presenter" class="presenter-image">
-          <p class="presenter-name">Presenter Name</p>
-          <p class="is-size-6"><em>Affiliation</em></p>
-          <p class="is-size-6 has-text-justified" style="margin-top: 0.5rem;"><strong>Bio:</strong> TBA.</p>
+          <img src="static/images/dr-xiao-cheng.png" alt="Dr. Xiao Cheng" class="presenter-image">
+          <p class="presenter-name">Dr. Xiao Cheng</p>
+          <p class="is-size-6"><em>Macquarie University, Australia</em></p>
+          <p class="is-size-6 has-text-justified" style="margin-top: 0.5rem;"><strong>Bio:</strong>
+            Xiao Cheng is a lecturer (~U.S.Assistant Professor) at School of Computing, Faculty of Science and
+            Engineering, Macquarie University. His research lies at the intersection of Programming Languages (PL) and
+            Software Engineering (SE), focusing on enhancing the security and reliability of modern software systems
+            through formal method-based program analysis and verification techniques. He is also exploring the
+            integration of artificial intelligence with classical PL/SE tasks to further enhance these domains.<br />
+            His papers have been published in top-tier conferences and journals in the field of software engineering
+            (TOSEM, FSE, ICSE, ISSTA), programming languages (OOPSLA) and security (TDSC, NDSS), and awarded ACM SIGSOFT
+            Distinguished Paper Award for FSE 2024 and ACM SIGPLAN Distinguished Paper Award for OOPSLA 2020. He is one
+            of the major contributors of the SVF project, a widely-used open-source framework for code analysis and
+            verification, and the author of the DeepWukong project, which is the second most cited TOSEM work of the
+            past five years (2/1042) according to ACM.</p>
         </div>
         <div class="column is-one-third presenter-item">
-          <img src="static/images/avatar-placeholder.webp" alt="Presenter" class="presenter-image">
-          <p class="presenter-name">Presenter Name</p>
-          <p class="is-size-6"><em>Affiliation</em></p>
-          <p class="is-size-6 has-text-justified" style="margin-top: 0.5rem;"><strong>Bio:</strong> TBA.</p>
+          <img src="static/images/dr-yongqiang.png" alt="Dr. Yongqiang Tian" class="presenter-image">
+          <p class="presenter-name">Dr. Yongqiang Tian</p>
+          <p class="is-size-6"><em>Monash University, Australia</em></p>
+          <p class="is-size-6 has-text-justified" style="margin-top: 0.5rem;"><strong>Bio:</strong>
+            Dr. Yongqiang Tian is a lecturer (Assistant Professor) at Monash University. He holds a dual Ph.D. from the
+            University of Waterloo and the Hong Kong University of Science and Technology. His research lies in the
+            areas of software testing and debugging, with a particular focus on compilers and deep learning systems. The
+            proposed techniques have uncovered over 200 bugs in widely used software systems, including GCC, LLVM, and
+            TVM. His work has been published in leading peer-reviewed journals and conferences such as TOSEM, ICSE,
+            ASPLOS, FSE, ASE, ISSTA, EmSE, and IJCAI. His research has received support from prominent funding agencies
+            and industry partners, including Microsoft and Cisco. He also contributes actively to the research
+            community, serving as the SIGSOFT Information Director, a reviewer, and a program committee member for
+            several top-tier conferences and journals.</p>
+        </div>
+
+        <div class="column is-one-third presenter-item">
+          <img src="static/images/dr-james-hoang.jpeg" alt="Dr. James Hoang" class="presenter-image">
+          <p class="presenter-name">Dr. James Hoang</p>
+          <p class="is-size-6"><em>CSIRO, Australia</em></p>
+          <p class="is-size-6 has-text-justified" style="margin-top: 0.5rem;"><strong>Bio:</strong>
+            James Hoang is a Research Scientist at the Commonwealth Scientific and Industrial Research Organisation
+            (CSIRO), Australia, within CSIRO’s Data61. At Data61, he leads a subgroup of research scientists focusing on
+            quantum software engineering and related foundational research problems. <br />
+
+            His research interests lie in inventing and developing AI agentic systems to address challenging problems in
+            complex software systems, including software repository mining, large-scale code search, automated bug
+            detection, and program analysis. Through this work, he aims to improve software quality, accelerate
+            developer productivity, reduce software maintenance costs, and promote the development of responsible and
+            trustworthy AI-assisted software engineering tools.<br />
+
+            James’s research has been published in leading flagship conferences and journals in software engineering and
+            security, including ICSE, ASE, IEEE Security & Privacy, and IEEE Transactions on Software Engineering (TSE).
+            He received his Ph.D. from the School of Computing and Information Systems at Singapore Management
+            University, where he conducted his doctoral research under the supervision of Professor David Lo.
+          </p>
         </div>
 
       </div>
@@ -164,15 +207,64 @@
             </tr>
             <tr>
               <td>TBA</td>
-              <td>TBA</td>
+              <td>
+                <b style="font-size: 1.1rem;">LLM-Powered Whole-Program Analysis</b>
+                <p><b>Presenter:</b> Dr. Xiao Cheng</p>
+
+                <p style="margin-top: 10px;"><b>Abstract:</b> Program analysis is fundamental to software quality
+                  assurance, as it enables automated reasoning about program behavior and the verification of properties
+                  against specifications. Large language models (LLMs) have shown great promise for program analysis due
+                  to their strong capability for semantic understanding, acquired through extensive training on
+                  large-scale codebases. However, because of the hallucination tendency of LLMs, they may produce
+                  spurious or counterfactual outputs, hurting the accuracy of program behavior reasoning. This problem
+                  becomes significantly more serious when applying LLMs to whole-program analysis, where the target is
+                  not toy, function-level code but industrial-scale codebases consisting of millions of lines of code.
+                  These limitations hinder the practical adoption of LLM-powered program analysis.</p>
+
+                <p>In this talk, I will present three works on LLM-powered whole-program analysis and its key
+                  applications: library API specification generation (ICSE 2026), fuzz driver enhancement (NDSS 2026),
+                  and codebase-level program repair (FSE 2026). I will elaborate on our methodologies for effectively
+                  combining LLMs with fundamental program analysis techniques and for mitigating hallucinations in
+                  LLM-powered whole-program analysis through program decomposition, verification, and
+                  retrieval-augmented generation techniques.</p>
+              </td>
             </tr>
             <tr>
               <td>TBA</td>
-              <td>TBA</td>
+              <td>
+                <b style="font-size: 1.1rem;">Supercharge Compiler Engineering with LLMs</b>
+                <p><b>Presenter:</b> Dr. Yongqiang Tian</p>
+
+                <p style="margin-top: 10px;"><b>Abstract:</b> The field of compiler engineering has long relied on deep
+                  human expertise and painstaking manual effort for tasks like finding subtle bugs or optimizing
+                  performance. This labour-intensive process, however, fundamentally limits the pace of development and
+                  analysis. This talk presents our recent work on how Large Language Models (LLMs) can fundamentally
+                  supercharge this process, allowing engineers to operate with unprecedented speed and efficiency. We
+                  will demonstrate how LLMs can intelligently (1) generate candidates for missed peephole optimizations
+                  and (2) implement language-specific transformations to automate the debugging workflow. </p>
+              </td>
             </tr>
             <tr>
               <td>TBA</td>
-              <td>TBA</td>
+              <td>
+                <b style="font-size: 1.1rem;">Architectural Patterns for Designing Quantum AI Systems</b>
+                <p><b>Presenter:</b> Dr. James Hoang</p>
+
+                <p style="margin-top: 10px;"><b>Abstract:</b> Utilising quantum computing technology to enhance
+                  artificial intelligence systems is expected to improve training and inference times, increase
+                  robustness against noise and adversarial attacks, and reduce the number of parameters without
+                  compromising accuracy. However, moving beyond proof-of-concept or simulations to develop practical
+                  applications of these systems while ensuring high software quality faces significant challenges due to
+                  the limitations of quantum hardware and the underdeveloped knowledge base in software engineering for
+                  such systems. In this work, we have conducted a systematic mapping study to identify the challenges
+                  and solutions associated with the software architecture of quantum-enhanced artificial intelligence
+                  systems. The results of the systematic mapping study reveal several architectural patterns that
+                  describe how quantum components can be integrated into inference engines, as well as middleware
+                  patterns that facilitate communication between classical and quantum components. Each pattern realises
+                  a trade-off between various software quality attributes, such as efficiency, scalability,
+                  trainability, simplicity, portability, and deployability. The outcomes of this work have been compiled
+                  into a catalogue of architectural patterns.</p>
+              </td>
             </tr>
           </tbody>
         </table>
