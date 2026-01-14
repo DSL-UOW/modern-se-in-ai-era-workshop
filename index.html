@@ -18,30 +18,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js"></script>
-
-  <style>
-    .presenter-image {
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-    }
-
-    .presenter-item {
-      text-align: center;
-      padding: 1rem;
-    }
-
-    .presenter-name {
-      margin-top: 0.5rem;
-      font-weight: 600;
-      font-size: 1.1rem;
-    }
-
-    .countdown {
-      color: #3273dc;
-      font-weight: 600;
-    }
-  </style>
 </head>
 
 <body>
@@ -105,21 +81,23 @@
           <img src="static/images/aprof-xi-zheng.png" alt="Associate Professor Xi Zheng" class="presenter-image">
           <p class="presenter-name">A/Prof. Xi Zheng</p>
           <p class="is-size-6"><em>Macquarie University, Australia</em></p>
-          <p class="is-size-8 has-text-justified" style="margin-top: 0.5rem;"><strong>Bio:</strong> A/Prof. Xi Zheng
-            (Macquarie University, Australia) is an ARC Future Fellow (2024–2028) whose research focuses on testing and
-            verification of learning-enabled cyber-physical systems, with applications to autonomous vehicles and UAVs.
+          <p class="is-size-8 has-text-justified presenter-bio" style="margin-top: 0.5rem;"><strong>Bio:</strong>
+            A/Prof. Xi Zheng (Macquarie University, Australia) is an ARC Future Fellow (2024–2028) whose research
+            focuses on testing and verification of learning-enabled cyber-physical systems, with applications to
+            autonomous vehicles and UAVs.
             He has secured over $2.4M in competitive funding and published extensively in top venues such as ICSE, FSE,
             and TSE. His research outputs have been adopted in industry by partners including Ant Group and UAV
             companies. Beyond research, he has taken on significant leadership and service roles, serving as TPC Chair
             (MobiQuitous 2026), OC/TPC member (ICSE 2026, FSE 2026, PerCom 2026, CAV 2025). He also co-founded the TACPS
             workshop series and is co-organizer of the Shonan Seminar #235 and Dagstuhl Seminar 202501048 (2026) on
             neurosymbolic AI and LLMs for reliable autonomous systems.</p>
+          <button class="view-bio-btn">View all</button>
         </div>
         <div class="column is-one-third presenter-item">
           <img src="static/images/dr-xiao-cheng.png" alt="Dr. Xiao Cheng" class="presenter-image">
           <p class="presenter-name">Dr. Xiao Cheng</p>
           <p class="is-size-6"><em>Macquarie University, Australia</em></p>
-          <p class="is-size-6 has-text-justified" style="margin-top: 0.5rem;"><strong>Bio:</strong>
+          <p class="is-size-6 has-text-justified presenter-bio" style="margin-top: 0.5rem;"><strong>Bio:</strong>
             Xiao Cheng is a lecturer (~U.S.Assistant Professor) at School of Computing, Faculty of Science and
             Engineering, Macquarie University. His research lies at the intersection of Programming Languages (PL) and
             Software Engineering (SE), focusing on enhancing the security and reliability of modern software systems
@@ -131,12 +109,13 @@
             of the major contributors of the SVF project, a widely-used open-source framework for code analysis and
             verification, and the author of the DeepWukong project, which is the second most cited TOSEM work of the
             past five years (2/1042) according to ACM.</p>
+          <button class="view-bio-btn">View all</button>
         </div>
         <div class="column is-one-third presenter-item">
           <img src="static/images/dr-yongqiang.png" alt="Dr. Yongqiang Tian" class="presenter-image">
           <p class="presenter-name">Dr. Yongqiang Tian</p>
           <p class="is-size-6"><em>Monash University, Australia</em></p>
-          <p class="is-size-6 has-text-justified" style="margin-top: 0.5rem;"><strong>Bio:</strong>
+          <p class="is-size-6 has-text-justified presenter-bio" style="margin-top: 0.5rem;"><strong>Bio:</strong>
             Dr. Yongqiang Tian is a lecturer (Assistant Professor) at Monash University. He holds a dual Ph.D. from the
             University of Waterloo and the Hong Kong University of Science and Technology. His research lies in the
             areas of software testing and debugging, with a particular focus on compilers and deep learning systems. The
@@ -146,13 +125,14 @@
             and industry partners, including Microsoft and Cisco. He also contributes actively to the research
             community, serving as the SIGSOFT Information Director, a reviewer, and a program committee member for
             several top-tier conferences and journals.</p>
+          <button class="view-bio-btn">View all</button>
         </div>
 
         <div class="column is-one-third presenter-item">
           <img src="static/images/dr-james-hoang.jpeg" alt="Dr. James Hoang" class="presenter-image">
           <p class="presenter-name">Dr. James Hoang</p>
           <p class="is-size-6"><em>CSIRO, Australia</em></p>
-          <p class="is-size-6 has-text-justified" style="margin-top: 0.5rem;"><strong>Bio:</strong>
+          <p class="is-size-6 has-text-justified presenter-bio" style="margin-top: 0.5rem;"><strong>Bio:</strong>
             James Hoang is a Research Scientist at the Commonwealth Scientific and Industrial Research Organisation
             (CSIRO), Australia, within CSIRO’s Data61. At Data61, he leads a subgroup of research scientists focusing on
             quantum software engineering and related foundational research problems. <br />
@@ -168,6 +148,40 @@
             He received his Ph.D. from the School of Computing and Information Systems at Singapore Management
             University, where he conducted his doctoral research under the supervision of Professor David Lo.
           </p>
+          <button class="view-bio-btn">View all</button>
+        </div>
+
+        <div class="column is-one-third presenter-item">
+          <img src="static/images/dr-hongjin.jpg" alt="Dr. Hong Jin Kang" class="presenter-image">
+          <p class="presenter-name">Dr. Hong Jin Kang</p>
+          <p class="is-size-6"><em>University of Sydney, Australia</em></p>
+          <p class="is-size-6 has-text-justified presenter-bio" style="margin-top: 0.5rem;"><strong>Bio:</strong>
+            Hong Jin Kang is a Lecturer at the University of Sydney. Before this role, he spent his postdoc at the
+            University of California, Los Angeles. He obtained his PhD from Singapore Management University. With a
+            broad goal of boosting developer productivity, his research focuses on using AI to integrate human knowledge
+            into automated software development techniques. His research has led to publications appearing in top-tier
+            venues, including conferences such as ICSE, FSE, and ASE, and journals such as TSE, and TOSEM. Through
+            industrial collaborations, his research has been deployed within large industrial companies and have
+            discovered security vulnerabilities that were assigned CVE IDs.
+          </p>
+          <button class="view-bio-btn">View all</button>
+        </div>
+
+        <div class="column is-one-third presenter-item">
+          <img src="static/images/dr-guoxin-su.jpg" alt="Dr. Guoxin Su" class="presenter-image">
+          <p class="presenter-name">Dr. Guoxin Su</p>
+          <p class="is-size-6"><em>University of Wollongong, Australia</em></p>
+          <p class="is-size-6 has-text-justified presenter-bio" style="margin-top: 0.5rem;"><strong>Bio:</strong>
+            Dr Guoxin Su is a senior lecturer at the University of Wollongong (UOW), Australia. Prior to this, he was a
+            senior research fellow with the School of Computing at the National University of Singapore. He received his
+            PhD from the University of Technology Sydney in 2013. Dr Su's research focuses on the intersection of AI,
+            data science, and software engineering. His primary research directions include formal methods,
+            probabilistic verification, multi-agent systems, deep reinforcement learning, and stream processing. He has
+            published over 60 papers, including publications in premier journals and conferences such as IEEE TSE, ICSE,
+            ESEC/FSE, AAAI, AMMAS, NeurIPS, and Pattern Recognition. He has served as SPC/PC in a number of prestigious
+            conferences and supervised more than 10 PhD students to completion.
+          </p>
+          <button class="view-bio-btn">View all</button>
         </div>
 
       </div>
@@ -266,6 +280,53 @@
                   into a catalogue of architectural patterns.</p>
               </td>
             </tr>
+            <tr>
+              <td>TBA</td>
+              <td>
+                <b style="font-size: 1.1rem;">Towards Human-Centered Program Analysis for Secure Software
+                  Engineering</b>
+                <p><b>Presenter:</b> Dr. Hong Jin Kang</p>
+
+                <p style="margin-top: 10px;"><b>Abstract:</b>
+                  Program analysis is essential for software correctness and security, yet its practical impact is often
+                  limited by tools that do not align with developers’ reasoning processes or accommodate multiple
+                  perspectives. A human-centered approach can help close this gap.
+                </p>
+
+                <p>
+                  This talk will present a multi-agent framework for vulnerability detection in which multiple LLM
+                  agents adopting different roles debate and refine vulnerability hypotheses, improving detection
+                  performance and enabling the discovery of multiple CVEs. It will also cover an interrogative debugger
+                  for taint analysis that allows developers to ask "why," "why-not," and "what-if" questions to explain
+                  unexpected or missing security warnings, reducing cognitive load and improving sensemaking. Finally,
+                  we will outline future directions for advancing program analysis tools to address long-standing
+                  challenges for effective program analysis.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>TBA</td>
+              <td>
+                <b style="font-size: 1.1rem;">Real-time deep reinforcement learning systems: fault-tolerant design and
+                  multi-objective analysis</b>
+                <p><b>Presenter:</b> Dr. Guoxin Su</p>
+
+                <p style="margin-top: 10px;"><b>Abstract:</b>
+                  Deep reinforcement learning (DRL) has emerged as a powerful paradigm for solving complex
+                  decision-making problems. However, DRL-based systems still face significant dependability challenges
+                  particularly in real-time environments due to the simulation-to-reality gap, out-of-distribution
+                  observations, and the critical impact of latency. Latency-induced faults, in particular, can lead to
+                  unsafe or unstable behaviour, yet existing fault-tolerance approaches to DRL systems lack formal
+                  methods to rigorously analyse and optimise performance and safety simultaneously in real-time
+                  settings. In this talk, I will present a formal framework for the design and analysis of real-time
+                  switching mechanisms between DRL agents and alternative controllers. Our framework models switching
+                  behaviour using timed automata and introduces multi-objective model checking to evaluate the switch
+                  design against both soft and hard performance requirements. A GPU-accelerated implementation of our
+                  novel method demonstrates superior scalability compared to the state-of-the-art probabilistic model
+                  checking tools.
+                </p>
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -322,6 +383,17 @@
       if (countdownEl && typeof timeago !== 'undefined') {
         timeago.render(countdownEl);
       }
+
+      // Handle View all/View less buttons for presenter bios
+      document.querySelectorAll('.view-bio-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          const bio = this.previousElementSibling;
+          if (bio && bio.classList.contains('presenter-bio')) {
+            bio.classList.toggle('expanded');
+            this.textContent = bio.classList.contains('expanded') ? 'View less' : 'View all';
+          }
+        });
+      });
     });
   </script>
 
