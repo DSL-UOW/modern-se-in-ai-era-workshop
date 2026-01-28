@@ -81,6 +81,37 @@
 
   <section class="section" style="background-color: #f5f5f5;">
     <div class="container is-fullhd">
+      <h2 class="title is-3 has-text-centered">Keynote Speakers</h2>
+      <div class="columns is-centered is-multiline">
+        <div class="column is-one-third presenter-item">
+          <img src="static/images/prof-tim-menzies.png" alt="Professor Tim Menzies" class="presenter-image">
+          <p class="presenter-name">Professor Tim Menzies</p>
+          <p class="is-size-6"><em>North Carolina State University, USA</em></p>
+          <p class="is-size-8 has-text-justified presenter-bio" style="margin-top: 0.5rem;"><strong>Bio:</strong>
+            Tim Menzies (Ph.D. UNSW 1995, ACM Fellow, IEEE Fellow, ASE Fellow) is a globally recognized leader in
+            software engineering research, best known for his pioneering work in data-driven, explainable, and minimal
+            AI for software systems. Over the past two decades, his contributions have redefined defect prediction,
+            effort estimation, and multi-objective optimization, emphasizing transparency and reproducibility.
+
+            As the co-creator of the PROMISE repository, Tim helped establish modern empirical software engineering,
+            showing that small, interpretable AI models can outperform larger, more complex ones. Currently, he works as
+            a full Professor in computer science at NC State, USA. He is the director of the Irrational Research lab
+            (mad scientists r'us). His research has earned over $19+ million in funding from agencies such as NSF,
+            DARPA, and NASA, as well as from private companies like Meta, Microsoft and IBM.
+
+            Tim has published over 300 papers, with more than 24,000 citations, and advised 24 Ph.D. students. He is the
+            editor-in-chief of the editor-in-chief of the Automated Software Engineering journal and an associate editor
+            for IEEE TSE. His work continues to shape the future of software engineering, focusing on creating AI tools
+            that are not only intelligent but also fair, transparent, and trustworthy. For more information, visit
+            timm.fyi.of, NC state http://timm.fyi
+          </p>
+          <button class="view-bio-btn">View all</button>
+        </div>
+
+      </div>
+  </section>
+  <section class="section" style="background-color: #f5f5f5;">
+    <div class="container is-fullhd">
       <!-- Presenters List -->
       <h2 class="title is-3 has-text-centered">Presenters</h2>
       <div class="columns is-centered is-multiline">
@@ -227,14 +258,33 @@
           </thead>
           <tbody>
             <tr>
-              <td>10:30 - 10:45</td>
+              <td>10:30 - 11:15</td>
               <td>
-                <b style="font-size: 1.1rem;">Opening</b>
-                <p>Welcome and introduction to the workshop</p>
+                <p style="font-size: 1.1rem;">Opening & Keynote Speech:
+                  <b>Modern SE in the AI age</b>
+                </p>
+
+                <p><b>Presenter:</b> Prof. Tim Menzies</p>
+                <p style="margin-top: 10px;">
+                  <b>Abstract:</b> Everyone says AI needs more: more parameters, more data, more GPUs, more money.
+                  Really?
+
+                  Complexity has costs, and they're not always obvious until something goes boom. In this talk, I'll
+                  walk through thirty years of building AI systems that worked because they were simple, not despite it.
+                  Like the expert system for raising pigs that outperformed the human expert who wrote its rules—built
+                  by a junior master's student (i.e. me). Or modern "compact AI" methods that match GPT-class results
+                  using 1/1000th of the data.
+
+                  Here's the heresy: in most real software systems, complexity collapses. Behavior funnels. The winning
+                  move isn't throwing more compute at the problem—it's asking a better question.
+
+                  If you've ever suspected that the AI hype machine is missing something important, come find out what.
+
+                </p>
               </td>
             </tr>
             <tr>
-              <td>10:45 - 11:15</td>
+              <td>11:15 - 11:45</td>
               <td>
                 <b style="font-size: 1.1rem;">Towards Verifiable Autonomous Systems with NeuroSymbolic Reasoning</b>
                 <p><b>Presenter:</b> A/Prof. Xi Zheng</p>
@@ -252,7 +302,7 @@
               </td>
             </tr>
             <tr>
-              <td>11:15 - 11:45</td>
+              <td>11:45 - 12:15</td>
               <td>
                 <b style="font-size: 1.1rem;">LLM-Powered Whole-Program Analysis</b>
                 <p><b>Presenter:</b> Dr. Xiao Cheng</p>
@@ -275,8 +325,14 @@
                   retrieval-augmented generation techniques.</p>
               </td>
             </tr>
+            <tr style="background-color: #e8f4e8;">
+              <td>12:15 - 13:00</td>
+              <td>
+                <b style="font-size: 1.1rem;">Lunch Break</b>
+              </td>
+            </tr>
             <tr>
-              <td>11:45 - 12:15</td>
+              <td>13:00 - 13:30</td>
               <td>
                 <b style="font-size: 1.1rem;">Supercharge Compiler Engineering with LLMs</b>
                 <p><b>Presenter:</b> Dr. Yongqiang Tian</p>
@@ -290,35 +346,28 @@
                   and (2) implement language-specific transformations to automate the debugging workflow. </p>
               </td>
             </tr>
-            <tr style="background-color: #e8f4e8;">
-              <td>12:15 - 13:00</td>
-              <td>
-                <b style="font-size: 1.1rem;">Lunch Break</b>
-              </td>
+            <td>13:30 - 14:00</td>
+            <td>
+              <b style="font-size: 1.1rem;">Towards autonomous normative multi-agent systems for Human-AI software
+                engineering teams</b>
+              <p><b>Presenter:</b> Professor Hoa Khanh Dam</p>
+              <p style="margin-top: 10px;">
+                <b>Abstract:</b>
+                This talk envisions a transformative paradigm in software engineering, where Artificial Intelligence,
+                embodied in fully autonomous agents, becomes the primary driver of the core software development
+                activities. We introduce a new class of software engineering agents, empowered by Large Language
+                Models and equipped with beliefs, desires, intentions, and memory to enable human-like reasoning.
+                These agents collaborate with humans and other agents to design, implement, test, and deploy software
+                systems with a level of speed, reliability, and adaptability far beyond the current software
+                development processes. Their coordination and collaboration are governed by norms expressed as deontic
+                modalities - commitments, obligations, prohibitions and permissions - that regulate interactions and
+                ensure regulatory compliance. These innovations establish a scalable, transparent and trustworthy
+                framework for future Human-AI software engineering teams.
+              </p>
+            </td>
             </tr>
             <tr>
-              <td>13:00 - 13:30</td>
-              <td>
-                <b style="font-size: 1.1rem;">Towards autonomous normative multi-agent systems for Human-AI software
-                  engineering teams</b>
-                <p><b>Presenter:</b> Professor Hoa Khanh Dam</p>
-                <p style="margin-top: 10px;">
-                  <b>Abstract:</b>
-                  This talk envisions a transformative paradigm in software engineering, where Artificial Intelligence,
-                  embodied in fully autonomous agents, becomes the primary driver of the core software development
-                  activities. We introduce a new class of software engineering agents, empowered by Large Language
-                  Models and equipped with beliefs, desires, intentions, and memory to enable human-like reasoning.
-                  These agents collaborate with humans and other agents to design, implement, test, and deploy software
-                  systems with a level of speed, reliability, and adaptability far beyond the current software
-                  development processes. Their coordination and collaboration are governed by norms expressed as deontic
-                  modalities - commitments, obligations, prohibitions and permissions - that regulate interactions and
-                  ensure regulatory compliance. These innovations establish a scalable, transparent and trustworthy
-                  framework for future Human-AI software engineering teams.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>13:30 - 14:00</td>
+              <td>14:00 - 14:30</td>
               <td>
                 <b style="font-size: 1.1rem;">Architectural Patterns for Designing Quantum AI Systems</b>
                 <p><b>Presenter:</b> Dr. James Hoang</p>
@@ -340,7 +389,7 @@
               </td>
             </tr>
             <tr>
-              <td>14:00 - 14:30</td>
+              <td>14:30 - 15:00</td>
               <td>
                 <b style="font-size: 1.1rem;">Real-time deep reinforcement learning systems: fault-tolerant design and
                   multi-objective analysis</b>
@@ -363,7 +412,7 @@
               </td>
             </tr>
             <tr>
-              <td>14:30 - 15:00</td>
+              <td>15:00 - 15:30</td>
               <td>
                 <b style="font-size: 1.1rem;">Towards Human-Centered Program Analysis for Secure Software
                   Engineering</b>
@@ -387,7 +436,7 @@
               </td>
             </tr>
             <tr style="background-color: #fff3e0;">
-              <td>15:00 - 16:00</td>
+              <td>15:30 - 16:30</td>
               <td>
                 <b style="font-size: 1.1rem;">Discussions</b>
                 <p>Open discussion on research collaboration opportunities and future directions</p>
